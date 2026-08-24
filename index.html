@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Politique de confidentialité — Sudoku · Apparentia Studio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Hanken+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --cream:#FAF5EF;
+    --card:#FFFFFF;
+    --ink:#2B2A28;
+    --muted:#7E756A;
+    --faint:#B3A797;
+    --terracotta:#D9714C;
+    --hairline:#EBE1D4;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0;
+    background:var(--cream);
+    color:var(--ink);
+    font-family:"Hanken Grotesk",system-ui,-apple-system,sans-serif;
+    font-size:16px;
+    line-height:1.7;
+  }
+  .wrap{max-width:680px;margin:0 auto;padding:44px 22px 72px}
+
+  header{margin-bottom:34px}
+  .mark{
+    width:52px;height:52px;border-radius:13px;
+    background:#F3DCCD;color:var(--terracotta);
+    display:flex;align-items:center;justify-content:center;
+    font-size:26px;font-weight:500;margin-bottom:20px;
+    font-family:"Noto Sans JP",system-ui,sans-serif;
+  }
+  h1{
+    font-family:"Fraunces",Georgia,serif;font-weight:600;
+    font-size:32px;line-height:1.2;letter-spacing:-.01em;margin:0 0 8px;
+  }
+  .lede{color:var(--muted);font-size:15px;margin:0}
+  .date{color:var(--faint);font-size:13px;margin-top:14px}
+
+  .langs{display:flex;gap:7px;margin:26px 0 0}
+  .langs button{
+    font:inherit;font-size:13px;font-weight:700;
+    padding:8px 16px;border-radius:999px;cursor:pointer;
+    border:1px solid var(--hairline);background:transparent;color:var(--muted);
+    transition:background .15s,color .15s,border-color .15s;
+  }
+  .langs button[aria-pressed="true"]{
+    background:var(--terracotta);border-color:var(--terracotta);color:#fff;
+  }
+  .langs button:focus-visible{outline:2px solid var(--terracotta);outline-offset:2px}
+
+  h2{
+    font-family:"Fraunces",Georgia,serif;font-weight:600;
+    font-size:20px;line-height:1.3;margin:38px 0 12px;
+  }
+  h2:first-of-type{margin-top:30px}
+  p{margin:0 0 14px}
+  ul{margin:0 0 14px;padding-left:20px}
+  li{margin-bottom:7px}
+  strong{font-weight:700}
+  a{color:var(--terracotta);text-underline-offset:3px}
+
+  .box{
+    background:var(--card);border-radius:15px;
+    border:1px solid var(--hairline);
+    padding:20px 22px;margin:22px 0;
+  }
+  .box p:last-child,.box ul:last-child{margin-bottom:0}
+  .box h3{
+    font-size:11px;letter-spacing:.13em;text-transform:uppercase;
+    color:var(--faint);font-weight:700;margin:0 0 12px;
+  }
+
+  .todo{
+    background:#FFF3E4;border:1px dashed var(--terracotta);
+    color:#A4562F;font-weight:700;padding:2px 8px;border-radius:6px;
+    font-size:15px;
+  }
+
+  footer{
+    margin-top:56px;padding-top:24px;
+    border-top:1px solid var(--hairline);
+    text-align:center;color:var(--faint);
+    font-size:11px;letter-spacing:.14em;font-weight:700;
+  }
+  footer .n{color:var(--muted)}
+
+  [hidden]{display:none !important}
+  @media (max-width:480px){
+    .wrap{padding:32px 18px 56px}
+    h1{font-size:27px}
+    h2{font-size:18px}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="mark" aria-hidden="true">数</div>
+  <h1 data-t="title">Politique de confidentialité</h1>
+  <p class="lede" data-t="lede">Sudoku, édité par Apparentia Studio</p>
+  <p class="date" data-t="date">Dernière mise à jour : 24 août 2026</p>
+  <div class="langs" role="group" aria-label="Langue">
+    <button type="button" data-lang="fr" aria-pressed="true">Français</button>
+    <button type="button" data-lang="en" aria-pressed="false">English</button>
+  </div>
+</header>
+
+<!-- ═══════════════ FRANÇAIS ═══════════════ -->
+<main id="fr">
+
+<div class="box">
+  <h3>En bref</h3>
+  <p>Sudoku fonctionne sans compte, sans inscription et sans profil. Vos parties, vos statistiques et vos réglages restent sur votre appareil. Nous ne vendons aucune donnée, n'affichons aucune publicité et ne collectons aucun identifiant publicitaire. L'application ne demande aucune autorisation sensible : ni localisation, ni contacts, ni caméra, ni micro, ni fichiers.</p>
+</div>
+
+<h2>Qui est responsable du traitement</h2>
+<p>L'application Sudoku est éditée par <strong>Apparentia Studio</strong>, Genève, Suisse. Le responsable du traitement est Kevin Parente.</p>
+<p>Pour toute question relative à cette politique ou à vos données : <a href="mailto:apparentia.studio@gmail.com">apparentia.studio@gmail.com</a></p>
+
+<h2>Ce qui reste sur votre appareil</h2>
+<p>L'application enregistre localement, et uniquement localement :</p>
+<ul>
+  <li>votre progression et vos parties en cours ;</li>
+  <li>vos statistiques : temps, records, taux de réussite, série quotidienne ;</li>
+  <li>vos réglages : langue, thème, son, vibrations, vérification.</li>
+</ul>
+<p>Ces informations ne quittent jamais l'appareil. Elles ne sont ni sauvegardées sur nos serveurs, ni synchronisées entre appareils. Désinstaller l'application les efface définitivement.</p>
+
+<h2>Ce qui est transmis, et pourquoi</h2>
+
+<h3 style="font-size:15px;font-weight:700;margin:22px 0 8px">Mesure d'audience</h3>
+<p>Nous utilisons <strong>Firebase Analytics</strong> (Google) pour comprendre comment l'application est utilisée : écrans consultés, modes de jeu lancés, parties terminées. Ces mesures sont agrégées et ne servent pas à vous identifier. Firebase associe à chaque installation un identifiant technique et collecte le modèle d'appareil, la version du système, la langue et une localisation approximative déduite de l'adresse IP, au niveau du pays ou de la région. Google Play transmet également la source de l'installation, c'est-à-dire le lien par lequel l'application a été téléchargée.</p>
+
+<h3 style="font-size:15px;font-weight:700;margin:22px 0 8px">Identifiant publicitaire</h3>
+<p>L'application <strong>ne demande pas et ne collecte pas</strong> l'identifiant publicitaire de votre appareil. L'autorisation que le SDK Analytics ajoute par défaut à cette fin est explicitement retirée du manifeste, et la collecte de l'identifiant publicitaire comme de l'identifiant Android est désactivée. Nous vérifions leur absence dans l'application compilée avant chaque publication.</p>
+
+<h3 style="font-size:15px;font-weight:700;margin:22px 0 8px">Rapports de plantage</h3>
+<p>Nous utilisons <strong>Firebase Crashlytics</strong> (Google) pour être informés des plantages et les corriger. Un rapport contient la trace technique de l'erreur, la version de l'application, le modèle d'appareil, la version du système et un identifiant d'installation. Il ne contient aucun contenu de partie ni aucune donnée que vous auriez saisie.</p>
+
+<h3 style="font-size:15px;font-weight:700;margin:22px 0 8px">Vos messages</h3>
+<p>Si vous nous écrivez depuis les réglages de l'application, sont transmis :</p>
+<ul>
+  <li>la catégorie choisie et le texte de votre message ;</li>
+  <li>votre adresse e-mail, <strong>uniquement si vous la renseignez</strong> — ce champ est facultatif et ne sert qu'à vous répondre ;</li>
+  <li>quatre éléments de diagnostic annoncés à l'écran avant l'envoi : version de l'application, modèle d'appareil, version du système, langue.</li>
+</ul>
+<p>Ces messages sont reçus via Google Forms et conservés dans un tableur Google Sheets auquel seul l'éditeur a accès. Aucune autre donnée n'est jointe : ni identifiant d'appareil, ni statistiques de jeu.</p>
+
+<h2>Base légale</h2>
+<p>La mesure d'audience et les rapports de plantage reposent sur notre intérêt légitime à maintenir et améliorer l'application. Le traitement de votre message et de votre adresse repose sur votre démarche volontaire de nous écrire.</p>
+
+<h2>Durées de conservation</h2>
+<ul>
+  <li><strong>Mesures d'audience</strong> : les données d'événement sont conservées <strong>deux mois</strong>. Les données rattachées à un identifiant d'installation sont conservées <strong>quatorze mois</strong>, ce délai repartant à zéro à chaque nouvelle utilisation de l'application : elles sont donc supprimées quatorze mois après votre dernière partie.</li>
+  <li><strong>Rapports de plantage</strong> : quatre-vingt-dix jours.</li>
+  <li><strong>Messages</strong> : conservés le temps de traiter votre demande et de corriger ce qu'elle signale, puis supprimés sur demande.</li>
+</ul>
+
+<h2>Ce que nous ne faisons pas</h2>
+<ul>
+  <li>Aucune publicité, aucun traceur publicitaire, aucun réseau publicitaire tiers.</li>
+  <li>Aucune vente, location ou échange de données.</li>
+  <li>Aucun compte, aucune inscription, aucun identifiant permanent que vous auriez à fournir.</li>
+  <li>Aucune autorisation d'accès à la localisation précise, aux contacts, à la caméra, au micro ou à vos fichiers.</li>
+</ul>
+
+<h2>Autorisations demandées</h2>
+<p>Aucune des autorisations déclarées ne nécessite votre accord : ce sont toutes des autorisations techniques, accordées à l'installation. Les voici en entier, et ce à quoi elles servent.</p>
+<ul>
+  <li><strong>Internet</strong> et <strong>état du réseau</strong> : envoi des mesures d'audience, des rapports de plantage et de vos messages.</li>
+  <li><strong>Maintien en veille</strong> : requise par les services Google Play pour terminer un envoi commencé en arrière-plan.</li>
+  <li><strong>Source d'installation Google Play</strong> : indique par quel lien l'application a été téléchargée.</li>
+  <li><strong>Services de publicité Android</strong> : déclarées par le SDK Analytics, elles ne sont pas utilisées — l'application n'affiche aucune publicité et ne mène aucune campagne.</li>
+</ul>
+<p>Une dernière autorisation, propre à l'application et inutilisable par toute autre, sert uniquement à sa communication interne.</p>
+
+<h2>Sous-traitants</h2>
+<p>Nous faisons appel à Google Ireland Limited et Google LLC pour Firebase Analytics, Firebase Crashlytics, Google Forms et Google Sheets. Ces services peuvent traiter des données en dehors de la Suisse et de l'Espace économique européen, notamment aux États-Unis, sur la base des clauses contractuelles types de la Commission européenne.</p>
+
+<h2>Vos droits</h2>
+<p>Conformément à la loi fédérale suisse sur la protection des données et, si vous résidez dans l'Union européenne, au RGPD, vous disposez d'un droit d'accès, de rectification, d'effacement, de limitation et d'opposition, ainsi que d'un droit à la portabilité.</p>
+<p>Pour les exercer, écrivez à l'adresse ci-dessus. Précisez la date approximative de votre message si votre demande le concerne : sans compte ni identifiant, c'est le seul moyen de le retrouver. Vous pouvez également adresser une réclamation au Préposé fédéral à la protection des données et à la transparence, ou à l'autorité de contrôle de votre pays de résidence.</p>
+<p>Vous pouvez désactiver la mesure d'audience à tout moment en désinstallant l'application. Réinitialiser l'identifiant publicitaire de votre appareil, dans les réglages Android, dissocie également les mesures antérieures.</p>
+
+<h2>Enfants</h2>
+<p>L'application n'est pas destinée aux enfants de moins de treize ans et nous ne collectons pas sciemment de données les concernant. Si vous estimez qu'un enfant nous a transmis des informations par le formulaire de contact, écrivez-nous : nous les supprimerons.</p>
+
+<h2>Modifications</h2>
+<p>Cette politique peut évoluer avec l'application. La date de dernière mise à jour figure en tête de page. Toute modification substantielle — notamment l'ajout d'un service tiers — sera signalée dans les notes de version.</p>
+
+</main>
+
+<!-- ═══════════════ ENGLISH ═══════════════ -->
+<main id="en" hidden>
+
+<div class="box">
+  <h3>In short</h3>
+  <p>Sudoku works without an account, without registration and without a profile. Your games, statistics and settings stay on your device. We do not sell any data, show no advertising, and collect no advertising identifier. The application requests no sensitive permissions: no location, contacts, camera, microphone or file access.</p>
+</div>
+
+<h2>Who is responsible</h2>
+<p>The Sudoku application is published by <strong>Apparentia Studio</strong>, Geneva, Switzerland. The data controller is Kevin Parente.</p>
+<p>For any question about this policy or your data: <a href="mailto:apparentia.studio@gmail.com">apparentia.studio@gmail.com</a></p>
+
+<h2>What stays on your device</h2>
+<p>The application stores locally, and only locally:</p>
+<ul>
+  <li>your progress and games in play;</li>
+  <li>your statistics: times, records, completion rate, daily streak;</li>
+  <li>your settings: language, theme, sound, vibration, checking.</li>
+</ul>
+<p>This information never leaves the device. It is not backed up to our servers and not synchronised across devices. Uninstalling the application erases it permanently.</p>
+
+<h2>What is transmitted, and why</h2>
+
+<h3 style="font-size:15px;font-weight:700;margin:22px 0 8px">Usage measurement</h3>
+<p>We use <strong>Firebase Analytics</strong> (Google) to understand how the application is used: screens viewed, game modes started, games completed. These measurements are aggregated and are not used to identify you. Firebase assigns each installation a technical identifier and collects the device model, system version, language and an approximate location derived from the IP address, at country or region level. Google Play also passes on the install source, that is, the link the application was downloaded through.</p>
+
+<h3 style="font-size:15px;font-weight:700;margin:22px 0 8px">Advertising identifier</h3>
+<p>The application <strong>does not request and does not collect</strong> your device's advertising identifier. The permission the Analytics SDK adds by default for that purpose is explicitly removed from the manifest, and collection of both the advertising identifier and the Android identifier is disabled. We verify their absence in the compiled application before each release.</p>
+
+<h3 style="font-size:15px;font-weight:700;margin:22px 0 8px">Crash reports</h3>
+<p>We use <strong>Firebase Crashlytics</strong> (Google) to be informed of crashes and fix them. A report contains the technical trace of the error, the application version, the device model, the system version and an installation identifier. It contains no game content and nothing you have typed.</p>
+
+<h3 style="font-size:15px;font-weight:700;margin:22px 0 8px">Your messages</h3>
+<p>If you write to us from the application settings, the following is transmitted:</p>
+<ul>
+  <li>the category you chose and the text of your message;</li>
+  <li>your email address, <strong>only if you provide it</strong> — this field is optional and is used solely to reply to you;</li>
+  <li>four diagnostic items announced on screen before sending: application version, device model, system version, language.</li>
+</ul>
+<p>These messages are received through Google Forms and kept in a Google Sheets spreadsheet accessible only to the publisher. No other data is attached: no device identifier, no game statistics.</p>
+
+<h2>Legal basis</h2>
+<p>Usage measurement and crash reporting rest on our legitimate interest in maintaining and improving the application. Processing your message and address rests on your voluntary decision to write to us.</p>
+
+<h2>Retention periods</h2>
+<ul>
+  <li><strong>Usage measurements</strong>: event data is kept for <strong>two months</strong>. Data attached to an installation identifier is kept for <strong>fourteen months</strong>, a period that restarts each time the application is used: it is therefore deleted fourteen months after your last game.</li>
+  <li><strong>Crash reports</strong>: ninety days.</li>
+  <li><strong>Messages</strong>: kept for as long as needed to handle your request and fix what it reports, then deleted on request.</li>
+</ul>
+
+<h2>What we do not do</h2>
+<ul>
+  <li>No advertising, no advertising trackers, no third-party ad network.</li>
+  <li>No sale, rental or exchange of data.</li>
+  <li>No account, no registration, no permanent identifier you would have to supply.</li>
+  <li>No access to precise location, contacts, camera, microphone or your files.</li>
+</ul>
+
+<h2>Permissions requested</h2>
+<p>None of the declared permissions requires your consent: they are all technical permissions, granted at install time. Here they are in full, and what they are for.</p>
+<ul>
+  <li><strong>Internet</strong> and <strong>network state</strong>: sending usage measurements, crash reports and your messages.</li>
+  <li><strong>Wake lock</strong>: required by Google Play services to finish a transmission started in the background.</li>
+  <li><strong>Google Play install source</strong>: indicates which link the application was downloaded through.</li>
+  <li><strong>Android advertising services</strong>: declared by the Analytics SDK, they are not used — the application shows no advertising and runs no campaign.</li>
+</ul>
+<p>One last permission, specific to the application and unusable by any other, serves only its internal communication.</p>
+
+<h2>Processors</h2>
+<p>We rely on Google Ireland Limited and Google LLC for Firebase Analytics, Firebase Crashlytics, Google Forms and Google Sheets. These services may process data outside Switzerland and the European Economic Area, in particular in the United States, on the basis of the European Commission's standard contractual clauses.</p>
+
+<h2>Your rights</h2>
+<p>Under the Swiss Federal Act on Data Protection and, if you reside in the European Union, the GDPR, you have rights of access, rectification, erasure, restriction and objection, as well as a right to portability.</p>
+<p>To exercise them, write to the address above. Please state the approximate date of your message if your request concerns it: with no account and no identifier, that is the only way to find it. You may also lodge a complaint with the Swiss Federal Data Protection and Information Commissioner, or with the supervisory authority of your country of residence.</p>
+<p>You can stop usage measurement at any time by uninstalling the application. Resetting your device's advertising identifier, in the Android settings, also dissociates earlier measurements.</p>
+
+<h2>Children</h2>
+<p>The application is not intended for children under thirteen and we do not knowingly collect data concerning them. If you believe a child has sent us information through the contact form, write to us and we will delete it.</p>
+
+<h2>Changes</h2>
+<p>This policy may change along with the application. The date of the last update appears at the top of the page. Any substantial change — in particular the addition of a third-party service — will be noted in the release notes.</p>
+
+</main>
+
+<footer>
+  ap<span class="n">parentia</span> STUDIO
+</footer>
+
+</div>
+
+<script>
+  const T = {
+    fr:{title:'Politique de confidentialité', lede:'Sudoku, édité par Apparentia Studio',
+        date:'Dernière mise à jour : 24 août 2026'},
+    en:{title:'Privacy Policy', lede:'Sudoku, published by Apparentia Studio',
+        date:'Last updated: 24 August 2026'}
+  };
+  const buttons = document.querySelectorAll('.langs button');
+  buttons.forEach(b => b.addEventListener('click', () => {
+    const l = b.dataset.lang;
+    buttons.forEach(o => o.setAttribute('aria-pressed', String(o === b)));
+    document.getElementById('fr').hidden = (l !== 'fr');
+    document.getElementById('en').hidden = (l !== 'en');
+    document.documentElement.lang = l;
+    for (const k in T[l]) document.querySelector('[data-t="'+k+'"]').textContent = T[l][k];
+  }));
+</script>
+</body>
+</html>
