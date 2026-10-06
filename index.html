@@ -107,7 +107,7 @@
   <div class="mark" aria-hidden="true">数</div>
   <h1 data-t="title">Politique de confidentialité</h1>
   <p class="lede" data-t="lede">Sudoku, édité par Apparentia Studio</p>
-  <p class="date" data-t="date">Dernière mise à jour : 24 août 2026</p>
+  <p class="date" data-t="date">Dernière mise à jour : 6 octobre 2026</p>
   <div class="langs" role="group" aria-label="Langue">
     <button type="button" data-lang="fr" aria-pressed="true">Français</button>
     <button type="button" data-lang="en" aria-pressed="false">English</button>
@@ -119,7 +119,7 @@
 
 <div class="box">
   <h3>En bref</h3>
-  <p>Sudoku fonctionne sans compte, sans inscription et sans profil. Vos parties, vos statistiques et vos réglages restent sur votre appareil. Nous ne vendons aucune donnée, n'affichons aucune publicité et ne collectons aucun identifiant publicitaire. L'application ne demande aucune autorisation sensible : ni localisation, ni contacts, ni caméra, ni micro, ni fichiers.</p>
+  <p>Sudoku fonctionne sans compte, sans inscription et sans profil. Vos parties, vos statistiques et vos réglages restent sur votre appareil. Nous ne vendons aucune donnée et n'affichons aucune publicité dans l'application. Pour mesurer l'efficacité de nos campagnes publicitaires, l'application peut signaler son installation à nos partenaires publicitaires — avec votre accord si vous résidez en Europe, et vous pouvez désactiver cette mesure à tout moment dans les Paramètres. L'application ne demande aucune autorisation sensible : ni localisation, ni contacts, ni caméra, ni micro, ni fichiers.</p>
 </div>
 
 <h2>Qui est responsable du traitement</h2>
@@ -140,8 +140,21 @@
 <h3 style="font-size:15px;font-weight:700;margin:22px 0 8px">Mesure d'audience</h3>
 <p>Nous utilisons <strong>Firebase Analytics</strong> (Google) pour comprendre comment l'application est utilisée : écrans consultés, modes de jeu lancés, parties terminées. Ces mesures sont agrégées et ne servent pas à vous identifier. Firebase associe à chaque installation un identifiant technique et collecte le modèle d'appareil, la version du système, la langue et une localisation approximative déduite de l'adresse IP, au niveau du pays ou de la région. Google Play transmet également la source de l'installation, c'est-à-dire le lien par lequel l'application a été téléchargée.</p>
 
-<h3 style="font-size:15px;font-weight:700;margin:22px 0 8px">Identifiant publicitaire</h3>
-<p>L'application <strong>ne demande pas et ne collecte pas</strong> l'identifiant publicitaire de votre appareil. L'autorisation que le SDK Analytics ajoute par défaut à cette fin est explicitement retirée du manifeste, et la collecte de l'identifiant publicitaire comme de l'identifiant Android est désactivée. Nous vérifions leur absence dans l'application compilée avant chaque publication.</p>
+<h3 style="font-size:15px;font-weight:700;margin:22px 0 8px">Mesure publicitaire</h3>
+<p class="todo" style="display:block;font-weight:500;padding:10px 14px">Cette mesure arrivera dans une prochaine version de l'application. La version actuelle ne transmet aucune donnée à nos partenaires publicitaires.</p>
+<p id="partenaires">Lorsque nous faisons la promotion de l'application, nous avons besoin de savoir combien d'installations proviennent de nos publicités. Pour cela, l'application utilise le kit de développement de nos partenaires publicitaires, qui leur transmet :</p>
+<ul>
+  <li>l'installation et l'ouverture de l'application ;</li>
+  <li>l'<strong>identifiant publicitaire</strong> de votre appareil ;</li>
+  <li>des informations techniques : modèle d'appareil, version du système, version de l'application, langue et adresse IP.</li>
+</ul>
+<p>Ne sont <strong>jamais</strong> transmis : vos parties, vos scores, votre pseudonyme, vos réglages ni vos messages.</p>
+<p><strong>Votre choix.</strong> Si vous résidez dans l'Espace économique européen, au Royaume-Uni ou en Suisse, rien n'est transmis avant que vous ayez accepté, au premier lancement. Ailleurs, la mesure est active par défaut. Partout, vous pouvez l'activer ou la désactiver à tout moment dans <strong>Paramètres › Confidentialité › Mesure publicitaire</strong>.</p>
+<p><strong>Nos partenaires publicitaires actuels :</strong></p>
+<ul>
+  <li><strong>Meta Platforms Ireland Limited</strong> (Facebook, Instagram) — <a href="https://www.facebook.com/privacy/policy">politique de confidentialité de Meta</a>.</li>
+</ul>
+<p>Firebase Analytics, lui, ne collecte <strong>ni</strong> l'identifiant publicitaire <strong>ni</strong> l'identifiant Android : seule la mesure publicitaire les utilise.</p>
 
 <h3 style="font-size:15px;font-weight:700;margin:22px 0 8px">Rapports de plantage</h3>
 <p>Nous utilisons <strong>Firebase Crashlytics</strong> (Google) pour être informés des plantages et les corriger. Un rapport contient la trace technique de l'erreur, la version de l'application, le modèle d'appareil, la version du système et un identifiant d'installation. Il ne contient aucun contenu de partie ni aucune donnée que vous auriez saisie.</p>
@@ -156,18 +169,19 @@
 <p>Ces messages sont reçus via Google Forms et conservés dans un tableur Google Sheets auquel seul l'éditeur a accès. Aucune autre donnée n'est jointe : ni identifiant d'appareil, ni statistiques de jeu.</p>
 
 <h2>Base légale</h2>
-<p>La mesure d'audience et les rapports de plantage reposent sur notre intérêt légitime à maintenir et améliorer l'application. Le traitement de votre message et de votre adresse repose sur votre démarche volontaire de nous écrire.</p>
+<p>La mesure d'audience et les rapports de plantage reposent sur notre intérêt légitime à maintenir et améliorer l'application. La mesure publicitaire repose sur votre consentement si vous résidez dans l'Espace économique européen, au Royaume-Uni ou en Suisse, et sur notre intérêt légitime à promouvoir l'application ailleurs. Le traitement de votre message et de votre adresse repose sur votre démarche volontaire de nous écrire.</p>
 
 <h2>Durées de conservation</h2>
 <ul>
   <li><strong>Mesures d'audience</strong> : les données d'événement sont conservées <strong>deux mois</strong>. Les données rattachées à un identifiant d'installation sont conservées <strong>quatorze mois</strong>, ce délai repartant à zéro à chaque nouvelle utilisation de l'application : elles sont donc supprimées quatorze mois après votre dernière partie.</li>
   <li><strong>Rapports de plantage</strong> : quatre-vingt-dix jours.</li>
+  <li><strong>Mesure publicitaire</strong> : les données transmises à nos partenaires sont conservées par eux selon leur propre politique de confidentialité.</li>
   <li><strong>Messages</strong> : conservés le temps de traiter votre demande et de corriger ce qu'elle signale, puis supprimés sur demande.</li>
 </ul>
 
 <h2>Ce que nous ne faisons pas</h2>
 <ul>
-  <li>Aucune publicité, aucun traceur publicitaire, aucun réseau publicitaire tiers.</li>
+  <li>Aucune publicité affichée dans l'application, aucun réseau publicitaire intégré pour vous montrer des annonces.</li>
   <li>Aucune vente, location ou échange de données.</li>
   <li>Aucun compte, aucune inscription, aucun identifiant permanent que vous auriez à fournir.</li>
   <li>Aucune autorisation d'accès à la localisation précise, aux contacts, à la caméra, au micro ou à vos fichiers.</li>
@@ -176,26 +190,26 @@
 <h2>Autorisations demandées</h2>
 <p>Aucune des autorisations déclarées ne nécessite votre accord : ce sont toutes des autorisations techniques, accordées à l'installation. Les voici en entier, et ce à quoi elles servent.</p>
 <ul>
-  <li><strong>Internet</strong> et <strong>état du réseau</strong> : envoi des mesures d'audience, des rapports de plantage et de vos messages.</li>
+  <li><strong>Internet</strong> et <strong>état du réseau</strong> : envoi des mesures d'audience, des rapports de plantage, de la mesure publicitaire et de vos messages.</li>
   <li><strong>Maintien en veille</strong> : requise par les services Google Play pour terminer un envoi commencé en arrière-plan.</li>
   <li><strong>Source d'installation Google Play</strong> : indique par quel lien l'application a été téléchargée.</li>
-  <li><strong>Services de publicité Android</strong> : déclarées par le SDK Analytics, elles ne sont pas utilisées — l'application n'affiche aucune publicité et ne mène aucune campagne.</li>
+  <li><strong>Identifiant publicitaire</strong> : permet de lire l'identifiant publicitaire de l'appareil, transmis à nos partenaires publicitaires uniquement lorsque la mesure publicitaire est active.</li>
 </ul>
 <p>Une dernière autorisation, propre à l'application et inutilisable par toute autre, sert uniquement à sa communication interne.</p>
 
-<h2>Sous-traitants</h2>
-<p>Nous faisons appel à Google Ireland Limited et Google LLC pour Firebase Analytics, Firebase Crashlytics, Google Forms et Google Sheets. Ces services peuvent traiter des données en dehors de la Suisse et de l'Espace économique européen, notamment aux États-Unis, sur la base des clauses contractuelles types de la Commission européenne.</p>
+<h2>Sous-traitants et partenaires</h2>
+<p>Nous faisons appel à Google Ireland Limited et Google LLC pour Firebase Analytics, Firebase Crashlytics, Google Forms et Google Sheets, et à nos partenaires publicitaires listés plus haut pour la mesure publicitaire. Ces services peuvent traiter des données en dehors de la Suisse et de l'Espace économique européen, notamment aux États-Unis, sur la base des clauses contractuelles types de la Commission européenne.</p>
 
 <h2>Vos droits</h2>
 <p>Conformément à la loi fédérale suisse sur la protection des données et, si vous résidez dans l'Union européenne, au RGPD, vous disposez d'un droit d'accès, de rectification, d'effacement, de limitation et d'opposition, ainsi que d'un droit à la portabilité.</p>
 <p>Pour les exercer, écrivez à l'adresse ci-dessus. Précisez la date approximative de votre message si votre demande le concerne : sans compte ni identifiant, c'est le seul moyen de le retrouver. Vous pouvez également adresser une réclamation au Préposé fédéral à la protection des données et à la transparence, ou à l'autorité de contrôle de votre pays de résidence.</p>
-<p>Vous pouvez désactiver la mesure d'audience à tout moment en désinstallant l'application. Réinitialiser l'identifiant publicitaire de votre appareil, dans les réglages Android, dissocie également les mesures antérieures.</p>
+<p>Vous pouvez désactiver la mesure publicitaire à tout moment dans les Paramètres de l'application, et la mesure d'audience en désinstallant l'application. Réinitialiser ou supprimer l'identifiant publicitaire de votre appareil, dans les réglages Android, dissocie également les mesures antérieures.</p>
 
 <h2>Enfants</h2>
 <p>L'application n'est pas destinée aux enfants de moins de treize ans et nous ne collectons pas sciemment de données les concernant. Si vous estimez qu'un enfant nous a transmis des informations par le formulaire de contact, écrivez-nous : nous les supprimerons.</p>
 
 <h2>Modifications</h2>
-<p>Cette politique peut évoluer avec l'application. La date de dernière mise à jour figure en tête de page. Toute modification substantielle — notamment l'ajout d'un service tiers — sera signalée dans les notes de version.</p>
+<p>Cette politique peut évoluer avec l'application. La date de dernière mise à jour figure en tête de page. Toute modification substantielle — notamment l'ajout d'un service tiers — sera signalée dans les notes de version. Si nous ajoutons un partenaire publicitaire, la liste ci-dessus sera mise à jour et, si vous résidez en Europe, votre accord vous sera redemandé.</p>
 
 </main>
 
@@ -204,7 +218,7 @@
 
 <div class="box">
   <h3>In short</h3>
-  <p>Sudoku works without an account, without registration and without a profile. Your games, statistics and settings stay on your device. We do not sell any data, show no advertising, and collect no advertising identifier. The application requests no sensitive permissions: no location, contacts, camera, microphone or file access.</p>
+  <p>Sudoku works without an account, without registration and without a profile. Your games, statistics and settings stay on your device. We do not sell any data and show no advertising in the application. To measure how well our advertising campaigns perform, the application may report its installation to our advertising partners — with your consent if you live in Europe, and you can turn this measurement off at any time in Settings. The application requests no sensitive permissions: no location, contacts, camera, microphone or file access.</p>
 </div>
 
 <h2>Who is responsible</h2>
@@ -225,8 +239,21 @@
 <h3 style="font-size:15px;font-weight:700;margin:22px 0 8px">Usage measurement</h3>
 <p>We use <strong>Firebase Analytics</strong> (Google) to understand how the application is used: screens viewed, game modes started, games completed. These measurements are aggregated and are not used to identify you. Firebase assigns each installation a technical identifier and collects the device model, system version, language and an approximate location derived from the IP address, at country or region level. Google Play also passes on the install source, that is, the link the application was downloaded through.</p>
 
-<h3 style="font-size:15px;font-weight:700;margin:22px 0 8px">Advertising identifier</h3>
-<p>The application <strong>does not request and does not collect</strong> your device's advertising identifier. The permission the Analytics SDK adds by default for that purpose is explicitly removed from the manifest, and collection of both the advertising identifier and the Android identifier is disabled. We verify their absence in the compiled application before each release.</p>
+<h3 style="font-size:15px;font-weight:700;margin:22px 0 8px">Ad measurement</h3>
+<p class="todo" style="display:block;font-weight:500;padding:10px 14px">This measurement will arrive in an upcoming version of the application. The current version sends no data to our advertising partners.</p>
+<p id="partners">When we promote the application, we need to know how many installs come from our ads. To do so, the application uses our advertising partners' software development kit, which sends them:</p>
+<ul>
+  <li>the installation and opening of the application;</li>
+  <li>your device's <strong>advertising identifier</strong>;</li>
+  <li>technical information: device model, system version, application version, language and IP address.</li>
+</ul>
+<p>What is <strong>never</strong> sent: your games, your scores, your nickname, your settings or your messages.</p>
+<p><strong>Your choice.</strong> If you live in the European Economic Area, the United Kingdom or Switzerland, nothing is sent until you accept, at first launch. Elsewhere, measurement is on by default. Everywhere, you can turn it on or off at any time in <strong>Settings › Privacy › Ad measurement</strong>.</p>
+<p><strong>Our current advertising partners:</strong></p>
+<ul>
+  <li><strong>Meta Platforms Ireland Limited</strong> (Facebook, Instagram) — <a href="https://www.facebook.com/privacy/policy">Meta's privacy policy</a>.</li>
+</ul>
+<p>Firebase Analytics collects <strong>neither</strong> the advertising identifier <strong>nor</strong> the Android identifier: only ad measurement uses them.</p>
 
 <h3 style="font-size:15px;font-weight:700;margin:22px 0 8px">Crash reports</h3>
 <p>We use <strong>Firebase Crashlytics</strong> (Google) to be informed of crashes and fix them. A report contains the technical trace of the error, the application version, the device model, the system version and an installation identifier. It contains no game content and nothing you have typed.</p>
@@ -241,18 +268,19 @@
 <p>These messages are received through Google Forms and kept in a Google Sheets spreadsheet accessible only to the publisher. No other data is attached: no device identifier, no game statistics.</p>
 
 <h2>Legal basis</h2>
-<p>Usage measurement and crash reporting rest on our legitimate interest in maintaining and improving the application. Processing your message and address rests on your voluntary decision to write to us.</p>
+<p>Usage measurement and crash reporting rest on our legitimate interest in maintaining and improving the application. Ad measurement rests on your consent if you live in the European Economic Area, the United Kingdom or Switzerland, and on our legitimate interest in promoting the application elsewhere. Processing your message and address rests on your voluntary decision to write to us.</p>
 
 <h2>Retention periods</h2>
 <ul>
   <li><strong>Usage measurements</strong>: event data is kept for <strong>two months</strong>. Data attached to an installation identifier is kept for <strong>fourteen months</strong>, a period that restarts each time the application is used: it is therefore deleted fourteen months after your last game.</li>
   <li><strong>Crash reports</strong>: ninety days.</li>
+  <li><strong>Ad measurement</strong>: data sent to our partners is kept by them under their own privacy policy.</li>
   <li><strong>Messages</strong>: kept for as long as needed to handle your request and fix what it reports, then deleted on request.</li>
 </ul>
 
 <h2>What we do not do</h2>
 <ul>
-  <li>No advertising, no advertising trackers, no third-party ad network.</li>
+  <li>No advertising shown in the application, no ad network built in to show you ads.</li>
   <li>No sale, rental or exchange of data.</li>
   <li>No account, no registration, no permanent identifier you would have to supply.</li>
   <li>No access to precise location, contacts, camera, microphone or your files.</li>
@@ -261,26 +289,26 @@
 <h2>Permissions requested</h2>
 <p>None of the declared permissions requires your consent: they are all technical permissions, granted at install time. Here they are in full, and what they are for.</p>
 <ul>
-  <li><strong>Internet</strong> and <strong>network state</strong>: sending usage measurements, crash reports and your messages.</li>
+  <li><strong>Internet</strong> and <strong>network state</strong>: sending usage measurements, crash reports, ad measurement and your messages.</li>
   <li><strong>Wake lock</strong>: required by Google Play services to finish a transmission started in the background.</li>
   <li><strong>Google Play install source</strong>: indicates which link the application was downloaded through.</li>
-  <li><strong>Android advertising services</strong>: declared by the Analytics SDK, they are not used — the application shows no advertising and runs no campaign.</li>
+  <li><strong>Advertising identifier</strong>: lets the application read the device's advertising identifier, sent to our advertising partners only while ad measurement is on.</li>
 </ul>
 <p>One last permission, specific to the application and unusable by any other, serves only its internal communication.</p>
 
-<h2>Processors</h2>
-<p>We rely on Google Ireland Limited and Google LLC for Firebase Analytics, Firebase Crashlytics, Google Forms and Google Sheets. These services may process data outside Switzerland and the European Economic Area, in particular in the United States, on the basis of the European Commission's standard contractual clauses.</p>
+<h2>Processors and partners</h2>
+<p>We rely on Google Ireland Limited and Google LLC for Firebase Analytics, Firebase Crashlytics, Google Forms and Google Sheets, and on the advertising partners listed above for ad measurement. These services may process data outside Switzerland and the European Economic Area, in particular in the United States, on the basis of the European Commission's standard contractual clauses.</p>
 
 <h2>Your rights</h2>
 <p>Under the Swiss Federal Act on Data Protection and, if you reside in the European Union, the GDPR, you have rights of access, rectification, erasure, restriction and objection, as well as a right to portability.</p>
 <p>To exercise them, write to the address above. Please state the approximate date of your message if your request concerns it: with no account and no identifier, that is the only way to find it. You may also lodge a complaint with the Swiss Federal Data Protection and Information Commissioner, or with the supervisory authority of your country of residence.</p>
-<p>You can stop usage measurement at any time by uninstalling the application. Resetting your device's advertising identifier, in the Android settings, also dissociates earlier measurements.</p>
+<p>You can turn ad measurement off at any time in the application's Settings, and stop usage measurement by uninstalling the application. Resetting or deleting your device's advertising identifier, in the Android settings, also dissociates earlier measurements.</p>
 
 <h2>Children</h2>
 <p>The application is not intended for children under thirteen and we do not knowingly collect data concerning them. If you believe a child has sent us information through the contact form, write to us and we will delete it.</p>
 
 <h2>Changes</h2>
-<p>This policy may change along with the application. The date of the last update appears at the top of the page. Any substantial change — in particular the addition of a third-party service — will be noted in the release notes.</p>
+<p>This policy may change along with the application. The date of the last update appears at the top of the page. Any substantial change — in particular the addition of a third-party service — will be noted in the release notes. If we add an advertising partner, the list above will be updated and, if you live in Europe, you will be asked for your consent again.</p>
 
 </main>
 
@@ -293,9 +321,9 @@
 <script>
   const T = {
     fr:{title:'Politique de confidentialité', lede:'Sudoku, édité par Apparentia Studio',
-        date:'Dernière mise à jour : 24 août 2026'},
+        date:'Dernière mise à jour : 6 octobre 2026'},
     en:{title:'Privacy Policy', lede:'Sudoku, published by Apparentia Studio',
-        date:'Last updated: 24 August 2026'}
+        date:'Last updated: 6 October 2026'}
   };
   const buttons = document.querySelectorAll('.langs button');
   buttons.forEach(b => b.addEventListener('click', () => {
